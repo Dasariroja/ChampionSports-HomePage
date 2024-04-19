@@ -1,6 +1,7 @@
 import { test } from "@playwright/test";
 import { CookiesMethods } from "../components/methods/cookiesmethods.ui";
 import { HomeMethods } from "../components/methods/homemethods.ui";
+
 const url = 'https://www.championsports.net/home?id=1&lang=en';
 test.describe('Three tests', () => {
     test.beforeEach(async ({ page }) => {

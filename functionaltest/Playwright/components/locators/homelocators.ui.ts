@@ -1,4 +1,5 @@
 import { Locator, Page } from "@playwright/test"
+
 export class HomeLocators {
     readonly logo: Locator;
     readonly aboutus: Locator;
