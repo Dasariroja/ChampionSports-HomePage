@@ -1,5 +1,6 @@
 import { Page } from "@playwright/test"
 import { HomeLocators } from "../locators/homelocators.ui";
+
 export class HomeMethods {
     readonly homelocators: HomeLocators;
 
